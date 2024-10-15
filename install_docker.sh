@@ -19,8 +19,3 @@ sudo apt-get update
 
 sudo apt-get install -y docker-ce docker-ce-cli containerd.io docker-buildx-plugin docker-compose-plugin
 
-sudo docker pull docker.osgeo.org/geoserver:2.26.0
-
-sudo docker run -d -it -p 8080:8080 \
-  --env SKIP_DEMO_DATA=true --env GEOSERVER_ADMIN_USER=admin --env GEOSERVER_ADMIN_PASSWORD=geoserver \
-  docker.osgeo.org/geoserver:2.26.0

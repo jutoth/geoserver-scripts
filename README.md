@@ -7,7 +7,7 @@ Copy setup_geoserver.sh to EC2
 ```
 scp -i ~/my-ec2-key.pem install_geoserver.sh user@ec2...
 ```
-Connect to EC2 Instance via Shell or AWS Instance Connect 
+Connect to EC2 Instance via Shell or AWS Instance Connect and excute script
 ```
 ssh -i /path/to/your-key.pem ubuntu@your-ec2-public-ip
 ```

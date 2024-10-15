@@ -5,11 +5,11 @@ Scripts for setting up a geoserver instance on aws ec2 ubuntu
 ## Setting up GeoServer
 Copy install_docker.sh to EC2
 ```
-scp -i ~/my-ec2-key.pem install_docker.sh user@ec2...:/home/ubuntu
+scp -i key.pem install_docker.sh ubuntu@ec2-public-ip:/home/ubuntu
 ```
 Connect to EC2 Instance via Shell or AWS Instance Connect and excute script
 ```
-ssh -i /path/to/your-key.pem ubuntu@your-ec2-public-ip
+ssh -i /key.pem ubuntu@ec2-public-ip
 cd /home/ubuntu
 ./install_docker.sh
 ```

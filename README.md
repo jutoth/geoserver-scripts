@@ -24,3 +24,8 @@ docker run -d -it -p 8080:8080 \
   docker.osgeo.org/geoserver:2.26.0
 
 ```
+
+Acces geosever admin panel via:
+```
+[public IPv4-DNS]:8080/geoserver/web
+```

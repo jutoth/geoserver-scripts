@@ -1,5 +1,7 @@
 #!/bin/bash
 
+# installs docker, pulls the official geoserver image and runs the geoserver container. 
+
 sudo apt-get update
 sudo apt-get upgrade -y
 

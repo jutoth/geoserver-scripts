@@ -1,5 +1,5 @@
 # Setup GeoServer on EC2
-Scripts for setting up and modifying geoserver instance on aws ec2 ubuntu
+Scripts for setting up a geoserver instance on aws ec2 ubuntu
 
 
 ## Setting up GeoServer

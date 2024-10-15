@@ -12,6 +12,7 @@ Connect to EC2 Instance via Shell or AWS Instance Connect and excute script
 ssh -i /path/to/your-key.pem ubuntu@your-ec2-public-ip
 ```
 
+run geoserver container with mounted volume and no demo data
 ```
 docker pull docker.osgeo.org/geoserver:2.26.0
 
